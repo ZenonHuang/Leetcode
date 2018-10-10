@@ -1,20 +1,18 @@
-//待补全:小九宫格重复检测
+//PASS,60 ms
 class Solution {
-    
     func valid(_ board:[[Character]]) -> Bool {
         //行
         var lineList   = [Character]()
         //列
         var columnList = [Character]()
         
-        for i in 0..<3 {
-            for j in 0..<3 {
+        for i in 0..<9 {
+            for j in 0..<9 {
                 
                 //扫描行
                 var lineNum = board[i][j]
                 if(!(lineNum==".")){
                     if(lineList.contains(lineNum)){
-                        print("重复 \(lineNum) 坐标: \(i) \(j)")
                         return false
                     }else{
                         lineList.append(lineNum)
@@ -26,7 +24,6 @@ class Solution {
                 var columnNum = board[j][i]
                 if(!(columnNum==".")){
                     if(columnList.contains(columnNum)){
-                        print("重复 \(columnNum) 坐标: \(j) \(i)")
                         return false
                     }else{
                         columnList.append(columnNum)
@@ -40,7 +37,6 @@ class Solution {
             columnList.removeAll()
         }
         
-        print("无重复")
         
         return true
     }
@@ -48,6 +44,15 @@ class Solution {
     func isValidSudoku(_ board: [[Character]]) -> Bool {
         
         var valid = true
+        
+        
+        
+        valid = self.valid(board)
+        if(!valid){
+            return false
+        }
+        
+        
         var smallBoard = [[Character]]()
         
         //stride正向跳跃遍历
@@ -61,13 +66,21 @@ class Solution {
                 smallBoard.append(line1)
                 smallBoard.append(line2)
                 
-                print(smallBoard)
-                print("-----")
                 
-                valid = self.valid(smallBoard)
-                if(!valid){
-                    return false
+                //检查 3*3 重复
+                var checkList = [Character]()
+                for list in smallBoard {
+                    for item in list {
+                        if(!(item==".")){
+                            if(checkList.contains(item)){
+                                return false
+                            }else{
+                                checkList.append(item)
+                            }
+                        }
+                    }
                 }
+                
                 
                 smallBoard.removeAll()
                 
