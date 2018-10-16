@@ -1,13 +1,22 @@
 
-
 # LeetCode
-swift3 练习代码
 
-| num | problem | 
+Swift 代码
+
+> 数组
+
+| 编号 | 题目 | 
 | --- | --- | 
-| 001 | TwoSum | 
-| 002 | ReverseInteger  |  
-| 003 | AddTwoNumbers  |  
-| 004 | Remove Duplicates from Sorted Array |
+| 001 | 从排序数组中删除重复项 | 
+| 002 | 买卖股票的最佳时机II |  
+| 003 | 旋转数组  |  
+| 004 | 存在重复 |
+| 005 | 只出现一次的数字 |
+| 006 | 两个数组的交集II |
+| 007 | 加一 |
+| 008 | 移动零 |
+| 009 | 两数之和 |
+| 010 | 有效的数独|
+| 011 | 旋转图像|
 
 
