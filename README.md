@@ -25,7 +25,7 @@
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
 | 012 | 反转整数 | [Reverse](./String/Reverse)
-
+| 013 | 反转字符串 | [ReverseString](./String/ReverseString)
 
 ## ⛓️ 链表
 
