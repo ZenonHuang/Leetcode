@@ -16,7 +16,7 @@
 | 007 | 加一 | [PlusOne](./Array/PlusOne)
 | 008 | 移动零 | [MoveZeroes](./Array/MoveZeroes)
 | 009 | 两数之和 |  [TwoSum](./Array/TwoSum)
-| 010 | 有效的数独|  [ValidSudoku](./Array/PlusOne)
+| 010 | 有效的数独|  [ValidSudoku](./Array/ValidSudoku)
 | 011 | 旋转图像|  [Rotate](./Array/Rotate) 
 
 ## 🍢 字符串
