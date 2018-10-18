@@ -163,3 +163,45 @@ class Solution {
         return -1
     }
 }
+
+// Pass: 464 ms
+class Solution {
+    func firstUniqChar(_ s: String) -> Int {
+        //创建字典
+        var indexDict = [UInt32:Int]()
+        var countDict = [UInt32:Int]()
+        
+        //给次数字典，下标字典赋值
+        for (index,c) in s.unicodeScalars.enumerated() {
+            
+            let key = c.value
+            if let num: Int = countDict[key] {
+                
+                countDict.updateValue(1, forKey: key)
+                //出现多次的删掉
+                indexDict.removeValue(forKey: key)
+                
+            } else {//只出现一次的
+                countDict.updateValue(0, forKey: key)
+                indexDict.updateValue(index, forKey: key)
+            }
+            
+            
+            
+        }
+        
+        
+        
+        //拿到只出现一次的下标数组
+        var list = [Int](indexDict.values);
+        
+        
+        //给出下标结果
+        if(list.count>0){
+            return list.sorted().first!
+        }
+        
+        
+        return -1
+    }
+}
