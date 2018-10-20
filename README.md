@@ -27,6 +27,7 @@
 | 012 | 反转整数 | [Reverse](./String/Reverse)
 | 013 | 反转字符串 | [ReverseString](./String/ReverseString)
 | 014 | 字符串中的第一个唯一字符| [FirstUniqChar](./String/FirstUniqChar)
+| 015 | 验证回文串 | [Palindrome](./String/Palindrome)
 
 ## ⛓️ 链表
 
