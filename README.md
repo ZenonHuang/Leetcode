@@ -29,6 +29,7 @@
 | 014 | 字符串中的第一个唯一字符| [FirstUniqChar](./String/FirstUniqChar)
 | 015 | 验证回文串 | [Palindrome](./String/Palindrome)
 | 016 | 有效的字母异位词| [Anagram](./String/Anagram) 
+| 017 | 报数 | [CountAndSay](./String/CountAndSay)
 
 ## ⛓️ 链表
 
