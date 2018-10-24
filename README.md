@@ -30,6 +30,7 @@
 | 015 | 验证回文串 | [Palindrome](./String/Palindrome)
 | 016 | 有效的字母异位词| [Anagram](./String/Anagram) 
 | 017 | 报数 | [CountAndSay](./String/CountAndSay)
+| 018 |  字符串转整数 (atoi) | [Atoi](./String/Atoi)
 
 ## ⛓️ 链表
 
