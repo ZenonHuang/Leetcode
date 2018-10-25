@@ -31,6 +31,7 @@
 | 016 | 有效的字母异位词| [Anagram](./String/Anagram) 
 | 017 | 报数 | [CountAndSay](./String/CountAndSay)
 | 018 |  字符串转整数 (atoi) | [Atoi](./String/Atoi)
+| 019 | 实现 strStr() | [strStr](./String/strStr)
 
 ## ⛓️ 链表
 
