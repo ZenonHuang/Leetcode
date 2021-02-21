@@ -7,7 +7,7 @@
 
 回头看看这个仓库的上一次提交，已经是整整两年过去了。
 
-<img src="https://zenon-1255868537.cos.ap-guangzhou.myqcloud.com/blogPicture/20210221120029.png" style="zoom:50%;" />
+<img src="https://zenon-1255868537.cos.ap-guangzhou.myqcloud.com/blogPicture/20210221120029.png?imageMogr2/thumbnail/!50p" />
 
 做的题目很少，但自己再次直接面对，好多都忘记最优思路了。
 
@@ -18,6 +18,8 @@
 所以决定开始写题解，通过写出思路甚至画图，加深理解。
 
 ## 🍋 数组
+
+
 
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
@@ -32,6 +34,8 @@
 | 009 | 两数之和 |  [TwoSum](./Array/TwoSum)
 | 010 | 有效的数独|  [ValidSudoku](./Array/ValidSudoku)
 | 011 | 旋转图像|  [Rotate](./Array/Rotate) 
+
+
 
 ## 🍢 字符串
 
@@ -52,6 +56,10 @@
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
 | 021 | 反转链表 | [ReverseLinkedList](./LinkedList/ReverseLinkedList)
+
+| 022 | 删除链表节点 |  [DeleteNode](./LinkedList/DeleteNode)
+
+| 022 | 删除链表的倒数第 n 个结点 |  [RemoveNthFromEnd](./LinkedList/RemoveNthFromEnd) 
 
 ## 🌲 树
 
