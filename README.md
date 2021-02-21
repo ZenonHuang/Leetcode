@@ -56,9 +56,7 @@
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
 | 021 | 反转链表 | [ReverseLinkedList](./LinkedList/ReverseLinkedList)
-
 | 022 | 删除链表节点 |  [DeleteNode](./LinkedList/DeleteNode)
-
 | 022 | 删除链表的倒数第 n 个结点 |  [RemoveNthFromEnd](./LinkedList/RemoveNthFromEnd) 
 
 ## 🌲 树
