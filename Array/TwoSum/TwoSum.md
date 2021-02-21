@@ -60,7 +60,7 @@
 
 ```
 
-<img src="https://zenon-1255868537.cos.ap-guangzhou.myqcloud.com/blogPicture/20210221133000.jpg" style="zoom:50%;" />
+<img src="https://zenon-1255868537.cos.ap-guangzhou.myqcloud.com/blogPicture/20210221133000.jpg?imageMogr2/thumbnail/!40p" />
 
 
 
