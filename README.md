@@ -59,12 +59,14 @@
 | 022 | 删除链表节点 |  [DeleteNode](./LinkedList/DeleteNode)
 | 022 | 删除链表的倒数第 n 个结点 |  [RemoveNthFromEnd](./LinkedList/RemoveNthFromEnd) 
 | 023 | 合并两个有序链表 |  [MergeTwoLists](./LinkedList/MergeTwoLists) 
+| 024 | 回文链表 | [PalindromeList](./LinkedList/PalindromeList)
+| 025 | 环形链表 | [CycleList](./LinkedList/CycleList)
 
 ## 🌲 树
 
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
-| 024 | 二叉树到最大深度 | [MaxDepthOfBinaryTree](./Tree/MaxDepthOfBinaryTree)
+| 026 | 二叉树到最大深度 | [MaxDepthOfBinaryTree](./Tree/MaxDepthOfBinaryTree)
 
 
 
