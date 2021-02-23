@@ -68,9 +68,9 @@
 
 中序遍历是深度遍历的一种方式。这里比较推荐中序遍历，更直观，也很好利用了 BST 的定义来做验证。
 
-BST 如果使用中序遍历的方式  ，得到结果一定是有序的：
+BST 如果使用中序遍历的方式  ，得到结果一定是有序的 (gif 直接搬运 leetcode)：
 
-<img src="https://zenon-1255868537.cos.ap-guangzhou.myqcloud.com/blogPicture/20210223075948.gif" style="zoom:80%;" />
+<img src="https://zenon-1255868537.cos.ap-guangzhou.myqcloud.com/blogPicture/20210223075948.gif?imageMogr2/thumbnail/!50p" />
 
 中序遍历时判断当前节点是否大于中序遍历的前一个节点，也就是判断是否有序，如果不大于直接返回 false。
 
