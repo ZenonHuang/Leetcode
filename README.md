@@ -67,6 +67,8 @@
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
 | 026 | 二叉树到最大深度 | [MaxDepthOfBinaryTree](./Tree/MaxDepthOfBinaryTree)
+| 027 | 验证二叉树搜索树 | [ValidBST](./Tree/ValidBST)
+| 028 | 对称二叉树      | [Symmetric](./Tree/Symmetric)
 
 
 
