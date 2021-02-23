@@ -15,36 +15,24 @@
  */
 class Solution {
     
-    func levelOrder(_ root: TreeNode?) -> [[Int]] {
-        if root == nil {//判空
-            return []
+    func sortedArrayToBST(_ nums: [Int]) -> TreeNode? {
+       if nums.isEmpty { return nil }
+       return createTree(nums, 0, nums.count - 1)  
+    }
+
+    func createTree(_ nums: [Int], _ left: Int, _ right: Int) -> TreeNode? {
+        
+        guard left <= right else { //递归结束条件
+            return nil 
         }
-        //返回的而为数组
-        var result = [[Int]]()
+        //通过传入左右区间，取中间节点
+        //不直接left+right,有溢出风险
+        let mid = left + (right-left) / 2
+        let node = TreeNode(nums[mid])
 
-        var nextLevel = [TreeNode]()
-        //用于存储每一个遍历层次的节点
-        var thisLevel: [TreeNode] = [root!]
-        while thisLevel.count > 0 {
-
-            var temp = [Int]()
-            for node in thisLevel {
-                temp.append(node.val)
-                if let left = node.left {
-                    nextLevel.append(left)
-                }
-                if let right = node.right {
-                    nextLevel.append(right)
-                }
-            }
-            result.append(temp) //获得一层的结果
-
-            //循环完成一层，将下一层的赋值给 thisLevel
-            thisLevel = nextLevel
-            //清空
-            temp.removeAll()
-            nextLevel.removeAll()
-        }
-        return result
+        //再递归处理左右节点
+        node.left  = createTree(nums, left, mid - 1)
+        node.right = createTree(nums, mid + 1, right)
+        return node
     }
 }
