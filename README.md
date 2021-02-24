@@ -24,7 +24,7 @@
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
 | 001 | 从排序数组中删除重复项 | [RemoveDuplicatesFromSortedArray](./Array/RemoveDuplicatesFromSortedArray)
-| 002 | 买卖股票的最佳时机II | [MaxProfitII](./Array/MaxProfitII) 
+| 002 | 买卖股票的最佳时机 II | [MaxProfitII](./Array/MaxProfitII) 
 | 003 | 旋转数组  |   [RotateArray](./Array/RotateArray) 
 | 004 | 存在重复 | [ContainsDuplicate](./Array/ContainsDuplicate)
 | 005 | 只出现一次的数字 |[SingleNumber](./Array/SingleNumber)
@@ -86,7 +86,7 @@
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
 | 033 | 爬楼梯 | [ClimbStairs](./DynamicProgramming/ClimbStairs)
-
+| 034 | 买卖股票的最佳时机 | [MaxProfit](./MaxProfit/MaxProfit)
 
 
 ## 💻 设计问题
