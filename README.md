@@ -73,8 +73,13 @@
 | 030 | 有序数组转为二叉树    | [SortedArrayToBST](./Tree/SortedArrayToBST)
 
 
-
 ## 🔍 排序和搜索
+
+| 编号 | 题目 | 目录连接 | 
+| --- | --- | ---|
+| 031 | 合并两个有序数组    | [Merge](./SortAndSearch/Merge)
+| 032 | 第一个错误的版本    | [FirstBadVersion](./SortAndSearch/FirstBadVersion)
+
 
 ## 📄 动态规划
 
