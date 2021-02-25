@@ -86,7 +86,8 @@
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
 | 033 | 爬楼梯 | [ClimbStairs](./DynamicProgramming/ClimbStairs)
-| 034 | 买卖股票的最佳时机 | [MaxProfit](./MaxProfit/MaxProfit)
+| 034 | 买卖股票的最佳时机 | [MaxProfit](./DynamicProgramming/MaxProfit)
+| 035 | 最大子序和 | [MaxSubArray](./DynamicProgramming/MaxSubArray)
 
 
 ## 💻 设计问题
