@@ -89,8 +89,13 @@
 | 034 | 买卖股票的最佳时机 | [MaxProfit](./DynamicProgramming/MaxProfit)
 | 035 | 最大子序和 | [MaxSubArray](./DynamicProgramming/MaxSubArray)
 
-
 ## 💻 设计问题
+
+| 编号 | 题目 | 目录连接 | 
+| --- | --- | ---|
+| 036 | 打乱数组 | [Shuffle](./Design/Shuffle)
+| 037 | 最小栈 | [MinStack](./Design/MinStack)
+
 
 ## 📝 数学
 
