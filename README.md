@@ -110,4 +110,7 @@
 
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
-| 042 | 位 1 的个数 | [HammingWeight](./Other/HammingWeight)
+| 042 | 位 1 的个数(汉明重量) | [HammingWeight](./Other/HammingWeight)
+| 043 | 汉明距离 | [HammingDistance](./Other/HammingDistance)
+| 044 | 颠倒二进制位 | [ReverseBits](./Other/ReverseBits)
+| 045 | 杨辉三角 | [Generate](./Other/Generate)
