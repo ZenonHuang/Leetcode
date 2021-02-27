@@ -102,6 +102,12 @@
 | 编号 | 题目 | 目录连接 | 
 | --- | --- | ---|
 | 038 | Fizz Buzz | [FizzBuzz](./Math/FizzBuzz)
+| 039 | 计数质数 | [CountPrimes](./Math/CountPrimes)
+| 040 | 3的幂 | [PowerOfThree](./Math/PowerOfThree)
+| 041 | 罗马数字转整数 | [RomanToInt](./Math/RomanToInt)
 
 ## 🥑 其它
 
+| 编号 | 题目 | 目录连接 | 
+| --- | --- | ---|
+| 042 | 位 1 的个数 | [HammingWeight](./Other/HammingWeight)
