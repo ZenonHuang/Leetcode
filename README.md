@@ -24,6 +24,9 @@
 | --- | --- |
 | 选择排序 | [排序数组](./Sort/SortArray/SortArray.md) | 
 | 选择排序 | [合并排序的数组](./Sort/Merge/Merge.md) | 
+| 插入排序 | [对链表进行插入排序](./Sort/InsertionSortList/InsertionSortList.md) | 
+| 快速排序 | [排序数组](./Sort/SortArray/QuikSort.md) | 
+
 
 
 ## 🍋 数组
