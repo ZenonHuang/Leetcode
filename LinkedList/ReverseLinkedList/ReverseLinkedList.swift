@@ -27,7 +27,7 @@ class ReverseLinkedList {
         
         return temp
     }
-//2.递归法，16 ms
+//2.1  递归法，16 ms
 //时间O(n),其中 n 是链表的长度。需要对链表的每个节点进行反转操作。空间 O(n) 其中 n 是链表的长度。空间复杂度主要取决于递归调用的栈空间，最多为 n 层。
     func reverseList(_ head: ListNode?) -> ListNode? {
         guard let h = head, let next = h.next else {
@@ -40,5 +40,17 @@ class ReverseLinkedList {
         h.next = nil
   
         return node
+    }
+    
+    //2.2 递归法,4 ms 。
+    func reverseList(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil {
+            return head
+        }
+
+        var newHead = reverseList(head!.next)
+        head?.next?.next = head
+        head?.next = nil 
+        return newHead
     }
 }
