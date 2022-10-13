@@ -64,7 +64,7 @@
 递归调用一次：2->1->NULL
 
  
-
+```
 {//递归核心
 
 next.next = currentHead;//完成对调，递归的原因就是不断重复这一过程
@@ -72,3 +72,4 @@ next.next = currentHead;//完成对调，递归的原因就是不断重复这一
 currentHead.next = nil;
 
 }
+```
