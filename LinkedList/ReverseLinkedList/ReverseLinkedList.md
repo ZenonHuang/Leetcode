@@ -49,7 +49,9 @@ node= 3->4->5->NULL, first=3, tmp: 2->1->NULL，
 
 仔细想想，不就是倒球吗：
 
-<img src="https://zenon-1255868537.cos.ap-guangzhou.myqcloud.com/blogPicture/20210221183108.jpg?imageMogr2/thumbnail/!50p"  />
+
+
+<img src="https://zenon-1255868537.cos.ap-guangzhou.myqcloud.com/blogPicture/202211022052083.png?imageMogr2/thumbnail/!50p"  />
 
 ### 递归法
 
