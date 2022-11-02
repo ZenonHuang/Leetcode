@@ -22,15 +22,19 @@
 
 ### 迭代法
 
-又叫双指针法。核心是通过循环，不断切换head，一直向前追溯和完成替换 tmp 链表。
+又叫 **双指针法** 。 核心是通过循环，不断切换head，一直向前追溯和完成替换 tmp 链表。
 
-一步步就是：
+最开始 ：
 
-开始 ：1->2->3->4->5->NULL，first=1，tmp:NULL
+node= 1->2->3->4->5->NULL，first=1，tmp=NULL
 
-第一次循环结束：2->3->4->5->NULL，first=2,  tmp: 1->NULL，
+第一次循环结束：
 
-第二次循环结束：3->4->5->NULL, first=3, tmp: 2->1->NULL，
+node= 2->3->4->5->NULL，first=2,  tmp=1->NULL，
+
+第二次循环结束：
+
+node= 3->4->5->NULL, first=3, tmp: 2->1->NULL，
 
 ...
 
